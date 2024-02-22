@@ -2,5 +2,10 @@
 
 <p align="center">
     <h1>This is a multi user authentication using laravel Breeze. Here user can login with the email by verifying. Also user can recover then password using the mail address</h1>
+    <h3>Type of user:</h3><br>
+    <h4>Admin</h4>
+    <h4>Vendor</h4>
+    <h4>Customer</h4>
+    
 </p>
 
