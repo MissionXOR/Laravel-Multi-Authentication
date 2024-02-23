@@ -22,6 +22,7 @@ require __DIR__.'/auth.php';
 
 Route::middleware(['auth','role:admin'])->group(function () {
 Route::get('admin/adashboard',[AdminController::class,'index'])->name('admin.adashboard');
+Route::get('admin/delete/{id}',[AdminController::class,'delete'])->name('admin.delete');
 });
 
 Route::middleware(['auth','role:vendor'])->group(function () {
